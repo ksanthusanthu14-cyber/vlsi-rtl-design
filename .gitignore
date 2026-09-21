@@ -1,0 +1,24 @@
+# Verilog simulation output
+*.vcd
+*.fst
+*.lxt
+*.wlf
+**/sim
+
+# Compiled simulation files
+*.out
+*.exe
+a.out
+
+# VS Code workspace files
+*.code-workspace
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
