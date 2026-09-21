@@ -1,8 +1,17 @@
 # VLSI RTL Design – Verilog HDL
 
-This repository contains my RTL design and digital hardware projects developed while learning VLSI design and Verilog HDL.
+A collection of digital design and RTL projects developed while learning
+VLSI Design and Verilog HDL.
 
-## Skills
+The repository covers combinational logic, sequential logic, finite state
+machines, RTL coding, testbench development, and simulation using Icarus
+Verilog and GTKWave.
+
+---
+
+## About
+
+This repository documents my hands-on learning in:
 
 - Digital Logic Design
 - Verilog HDL
@@ -11,62 +20,69 @@ This repository contains my RTL design and digital hardware projects developed w
 - Sequential Logic
 - Finite State Machines
 - Testbench Development
-- Simulation and Debugging
+- RTL Simulation
+- Waveform Analysis
+- Git and GitHub
 
-## Tools
+The projects are developed incrementally from basic digital circuits to
+more structured RTL and FSM designs.
 
-- Verilog HDL
-- Icarus Verilog
-- GTKWave
-- Visual Studio Code
-- Git/GitHub
+---
 
-## Projects
+## Tools Used
 
-### Combinational RTL
+| Tool | Purpose |
+|------|---------|
+| Verilog HDL | RTL design |
+| Icarus Verilog | Compilation and simulation |
+| GTKWave | Waveform analysis |
+| Visual Studio Code | Development |
+| Git | Version control |
+| GitHub | Source-code management |
 
-- Multiplexer
-- Decoder
-- Encoder
-- Adder
-- Subtractor
-- Comparator
-- ALU
-- Logic Gates
+---
 
-### Sequential RTL
+# Repository Structure
 
-- D Flip-Flop
-- T Flip-Flop
-- Registers
-- Up Counter
-- Down Counter
-- SISO Shift Register
-- SIPO Shift Register
-
-### FSM Projects
-
-- Moore FSM
-- Mealy FSM
-- Traffic Light Controller
-- Vending Machine
-- Elevator Controller
-
-### Advanced Verilog
-
-- Tasks
-- Functions
-- Parameterized RTL
-- Generate Blocks
-
-## Verification
-
-The designs are simulated using Icarus Verilog and verified using GTKWave waveform analysis.
-
-## Current Learning
-
-I am currently progressing toward advanced RTL design and SystemVerilog, followed by Design Verification and UVM.
-
-## Author
-
-Engineering Student | VLSI RTL Design & Design Verification
+```text
+vlsi-rtl-design/
+│
+├── 01_Digital_Basics/
+│   ├── AND Gate
+│   ├── OR Gate
+│   ├── NAND Gate
+│   ├── NOR Gate
+│   ├── NOT Gate
+│   ├── XOR Gate
+│   └── XNOR Gate
+│
+├── 02_Combinational_RTL/
+│   ├── 32-bit ALU
+│   ├── Full Adder
+│   ├── 4-bit Ripple Carry Adder
+│   ├── Comparator
+│   ├── 2-to-4 Decoder
+│   ├── 4-to-2 Encoder
+│   ├── 2-to-1 MUX
+│   ├── 4-to-1 MUX
+│   ├── Full Subtractor
+│   └── 4-bit Subtractor
+│
+├── 03_Sequential_RTL/
+│   ├── D Flip-Flop
+│   ├── D Flip-Flop with Reset
+│   ├── JK Flip-Flop
+│   ├── T Flip-Flop
+│   ├── SR Flip-Flop
+│   ├── 4-bit Register
+│   ├── 4-bit Up Counter
+│   ├── 4-bit Down Counter
+│   ├── SISO Shift Register
+│   └── SIPO Shift Register
+│
+└── 04_FSM_Design/
+    ├── Moore FSM
+    ├── Mealy FSM
+    ├── Traffic Light Controller
+    ├── Vending Machine
+    └── Elevator Controller
