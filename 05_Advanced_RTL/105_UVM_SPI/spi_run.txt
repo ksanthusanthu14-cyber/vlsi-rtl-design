@@ -1,0 +1,1977 @@
+VCD info: dumpfile uvm_spi.vcd opened for output.
+
+================================================
+       UVM-STYLE SPI TEST START
+================================================
+[ENV] SPI environment built
+[AGENT] SPI agent started
+[DRIVER] SPI driver ready
+[MONITOR] SPI monitor ready
+[SCOREBOARD] SPI scoreboard ready
+
+------------- DIRECTED TESTS ------------------
+
+================================================
+[SEQUENCER] SPI TRANSACTION #1
+[SEQUENCER] MASTER TX = 00
+[SEQUENCER] SLAVE TX  = 00
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=00 SLAVE_RX=00
+[MONITOR] SLAVE_TX=00 MASTER_RX=00
+
+================================================
+[SEQUENCER] SPI TRANSACTION #2
+[SEQUENCER] MASTER TX = ff
+[SEQUENCER] SLAVE TX  = ff
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=ff SLAVE_RX=ff
+[MONITOR] SLAVE_TX=ff MASTER_RX=ff
+
+================================================
+[SEQUENCER] SPI TRANSACTION #3
+[SEQUENCER] MASTER TX = a5
+[SEQUENCER] SLAVE TX  = 3c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=a5 SLAVE_RX=a5
+[MONITOR] SLAVE_TX=3c MASTER_RX=3c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #4
+[SEQUENCER] MASTER TX = 55
+[SEQUENCER] SLAVE TX  = aa
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=55 SLAVE_RX=55
+[MONITOR] SLAVE_TX=aa MASTER_RX=aa
+
+================================================
+[SEQUENCER] SPI TRANSACTION #5
+[SEQUENCER] MASTER TX = 12
+[SEQUENCER] SLAVE TX  = 7e
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=12 SLAVE_RX=12
+[MONITOR] SLAVE_TX=7e MASTER_RX=7e
+
+================================================
+[SEQUENCER] SPI TRANSACTION #6
+[SEQUENCER] MASTER TX = 80
+[SEQUENCER] SLAVE TX  = 01
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=80 SLAVE_RX=80
+[MONITOR] SLAVE_TX=01 MASTER_RX=01
+
+================================================
+[SEQUENCER] SPI TRANSACTION #7
+[SEQUENCER] MASTER TX = f0
+[SEQUENCER] SLAVE TX  = 0f
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f0 SLAVE_RX=f0
+[MONITOR] SLAVE_TX=0f MASTER_RX=0f
+
+================================================
+[SEQUENCER] SPI TRANSACTION #8
+[SEQUENCER] MASTER TX = 5a
+[SEQUENCER] SLAVE TX  = a5
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5a SLAVE_RX=5a
+[MONITOR] SLAVE_TX=a5 MASTER_RX=a5
+
+------------- RANDOMIZED TESTS ----------------
+
+================================================
+[SEQUENCER] SPI TRANSACTION #9
+[SEQUENCER] MASTER TX = 24
+[SEQUENCER] SLAVE TX  = 81
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=24 SLAVE_RX=24
+[MONITOR] SLAVE_TX=81 MASTER_RX=81
+
+================================================
+[SEQUENCER] SPI TRANSACTION #10
+[SEQUENCER] MASTER TX = 09
+[SEQUENCER] SLAVE TX  = 63
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=09 SLAVE_RX=09
+[MONITOR] SLAVE_TX=63 MASTER_RX=63
+
+================================================
+[SEQUENCER] SPI TRANSACTION #11
+[SEQUENCER] MASTER TX = 0d
+[SEQUENCER] SLAVE TX  = 8d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=0d SLAVE_RX=0d
+[MONITOR] SLAVE_TX=8d MASTER_RX=8d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #12
+[SEQUENCER] MASTER TX = 65
+[SEQUENCER] SLAVE TX  = 12
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=65 SLAVE_RX=65
+[MONITOR] SLAVE_TX=12 MASTER_RX=12
+
+================================================
+[SEQUENCER] SPI TRANSACTION #13
+[SEQUENCER] MASTER TX = 01
+[SEQUENCER] SLAVE TX  = 0d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=01 SLAVE_RX=01
+[MONITOR] SLAVE_TX=0d MASTER_RX=0d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #14
+[SEQUENCER] MASTER TX = 76
+[SEQUENCER] SLAVE TX  = 3d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=76 SLAVE_RX=76
+[MONITOR] SLAVE_TX=3d MASTER_RX=3d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #15
+[SEQUENCER] MASTER TX = ed
+[SEQUENCER] SLAVE TX  = 8c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=ed SLAVE_RX=ed
+[MONITOR] SLAVE_TX=8c MASTER_RX=8c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #16
+[SEQUENCER] MASTER TX = f9
+[SEQUENCER] SLAVE TX  = c6
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f9 SLAVE_RX=f9
+[MONITOR] SLAVE_TX=c6 MASTER_RX=c6
+
+================================================
+[SEQUENCER] SPI TRANSACTION #17
+[SEQUENCER] MASTER TX = c5
+[SEQUENCER] SLAVE TX  = aa
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=c5 SLAVE_RX=c5
+[MONITOR] SLAVE_TX=aa MASTER_RX=aa
+
+================================================
+[SEQUENCER] SPI TRANSACTION #18
+[SEQUENCER] MASTER TX = e5
+[SEQUENCER] SLAVE TX  = 77
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=e5 SLAVE_RX=e5
+[MONITOR] SLAVE_TX=77 MASTER_RX=77
+
+================================================
+[SEQUENCER] SPI TRANSACTION #19
+[SEQUENCER] MASTER TX = 12
+[SEQUENCER] SLAVE TX  = 8f
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=12 SLAVE_RX=12
+[MONITOR] SLAVE_TX=8f MASTER_RX=8f
+
+================================================
+[SEQUENCER] SPI TRANSACTION #20
+[SEQUENCER] MASTER TX = f2
+[SEQUENCER] SLAVE TX  = ce
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f2 SLAVE_RX=f2
+[MONITOR] SLAVE_TX=ce MASTER_RX=ce
+
+================================================
+[SEQUENCER] SPI TRANSACTION #21
+[SEQUENCER] MASTER TX = e8
+[SEQUENCER] SLAVE TX  = c5
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=e8 SLAVE_RX=e8
+[MONITOR] SLAVE_TX=c5 MASTER_RX=c5
+
+================================================
+[SEQUENCER] SPI TRANSACTION #22
+[SEQUENCER] MASTER TX = 5c
+[SEQUENCER] SLAVE TX  = bd
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5c SLAVE_RX=5c
+[MONITOR] SLAVE_TX=bd MASTER_RX=bd
+
+================================================
+[SEQUENCER] SPI TRANSACTION #23
+[SEQUENCER] MASTER TX = 2d
+[SEQUENCER] SLAVE TX  = 65
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=2d SLAVE_RX=2d
+[MONITOR] SLAVE_TX=65 MASTER_RX=65
+
+================================================
+[SEQUENCER] SPI TRANSACTION #24
+[SEQUENCER] MASTER TX = 63
+[SEQUENCER] SLAVE TX  = 0a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=63 SLAVE_RX=63
+[MONITOR] SLAVE_TX=0a MASTER_RX=0a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #25
+[SEQUENCER] MASTER TX = 80
+[SEQUENCER] SLAVE TX  = 20
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=80 SLAVE_RX=80
+[MONITOR] SLAVE_TX=20 MASTER_RX=20
+
+================================================
+[SEQUENCER] SPI TRANSACTION #26
+[SEQUENCER] MASTER TX = aa
+[SEQUENCER] SLAVE TX  = 9d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=aa SLAVE_RX=aa
+[MONITOR] SLAVE_TX=9d MASTER_RX=9d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #27
+[SEQUENCER] MASTER TX = 96
+[SEQUENCER] SLAVE TX  = 13
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=96 SLAVE_RX=96
+[MONITOR] SLAVE_TX=13 MASTER_RX=13
+
+================================================
+[SEQUENCER] SPI TRANSACTION #28
+[SEQUENCER] MASTER TX = 0d
+[SEQUENCER] SLAVE TX  = 53
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=0d SLAVE_RX=0d
+[MONITOR] SLAVE_TX=53 MASTER_RX=53
+
+================================================
+[SEQUENCER] SPI TRANSACTION #29
+[SEQUENCER] MASTER TX = 6b
+[SEQUENCER] SLAVE TX  = d5
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=6b SLAVE_RX=6b
+[MONITOR] SLAVE_TX=d5 MASTER_RX=d5
+
+================================================
+[SEQUENCER] SPI TRANSACTION #30
+[SEQUENCER] MASTER TX = 02
+[SEQUENCER] SLAVE TX  = ae
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=02 SLAVE_RX=02
+[MONITOR] SLAVE_TX=ae MASTER_RX=ae
+
+================================================
+[SEQUENCER] SPI TRANSACTION #31
+[SEQUENCER] MASTER TX = 1d
+[SEQUENCER] SLAVE TX  = cf
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=1d SLAVE_RX=1d
+[MONITOR] SLAVE_TX=cf MASTER_RX=cf
+
+================================================
+[SEQUENCER] SPI TRANSACTION #32
+[SEQUENCER] MASTER TX = 23
+[SEQUENCER] SLAVE TX  = 0a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=23 SLAVE_RX=23
+[MONITOR] SLAVE_TX=0a MASTER_RX=0a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #33
+[SEQUENCER] MASTER TX = ca
+[SEQUENCER] SLAVE TX  = 3c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=ca SLAVE_RX=ca
+[MONITOR] SLAVE_TX=3c MASTER_RX=3c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #34
+[SEQUENCER] MASTER TX = f2
+[SEQUENCER] SLAVE TX  = 8a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f2 SLAVE_RX=f2
+[MONITOR] SLAVE_TX=8a MASTER_RX=8a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #35
+[SEQUENCER] MASTER TX = 41
+[SEQUENCER] SLAVE TX  = d8
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=41 SLAVE_RX=41
+[MONITOR] SLAVE_TX=d8 MASTER_RX=d8
+
+================================================
+[SEQUENCER] SPI TRANSACTION #36
+[SEQUENCER] MASTER TX = 78
+[SEQUENCER] SLAVE TX  = 89
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=78 SLAVE_RX=78
+[MONITOR] SLAVE_TX=89 MASTER_RX=89
+
+================================================
+[SEQUENCER] SPI TRANSACTION #37
+[SEQUENCER] MASTER TX = eb
+[SEQUENCER] SLAVE TX  = b6
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=eb SLAVE_RX=eb
+[MONITOR] SLAVE_TX=b6 MASTER_RX=b6
+
+================================================
+[SEQUENCER] SPI TRANSACTION #38
+[SEQUENCER] MASTER TX = c6
+[SEQUENCER] SLAVE TX  = ae
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=c6 SLAVE_RX=c6
+[MONITOR] SLAVE_TX=ae MASTER_RX=ae
+
+================================================
+[SEQUENCER] SPI TRANSACTION #39
+[SEQUENCER] MASTER TX = bc
+[SEQUENCER] SLAVE TX  = 2a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=bc SLAVE_RX=bc
+[MONITOR] SLAVE_TX=2a MASTER_RX=2a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #40
+[SEQUENCER] MASTER TX = 0b
+[SEQUENCER] SLAVE TX  = 71
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=0b SLAVE_RX=0b
+[MONITOR] SLAVE_TX=71 MASTER_RX=71
+
+================================================
+[SEQUENCER] SPI TRANSACTION #41
+[SEQUENCER] MASTER TX = 85
+[SEQUENCER] SLAVE TX  = 4f
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=85 SLAVE_RX=85
+[MONITOR] SLAVE_TX=4f MASTER_RX=4f
+
+================================================
+[SEQUENCER] SPI TRANSACTION #42
+[SEQUENCER] MASTER TX = 3b
+[SEQUENCER] SLAVE TX  = 3a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=3b SLAVE_RX=3b
+[MONITOR] SLAVE_TX=3a MASTER_RX=3a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #43
+[SEQUENCER] MASTER TX = 7e
+[SEQUENCER] SLAVE TX  = 15
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=7e SLAVE_RX=7e
+[MONITOR] SLAVE_TX=15 MASTER_RX=15
+
+================================================
+[SEQUENCER] SPI TRANSACTION #44
+[SEQUENCER] MASTER TX = f1
+[SEQUENCER] SLAVE TX  = d9
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f1 SLAVE_RX=f1
+[MONITOR] SLAVE_TX=d9 MASTER_RX=d9
+
+================================================
+[SEQUENCER] SPI TRANSACTION #45
+[SEQUENCER] MASTER TX = 62
+[SEQUENCER] SLAVE TX  = 4c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=62 SLAVE_RX=62
+[MONITOR] SLAVE_TX=4c MASTER_RX=4c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #46
+[SEQUENCER] MASTER TX = 9f
+[SEQUENCER] SLAVE TX  = 8f
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=9f SLAVE_RX=9f
+[MONITOR] SLAVE_TX=8f MASTER_RX=8f
+
+================================================
+[SEQUENCER] SPI TRANSACTION #47
+[SEQUENCER] MASTER TX = f8
+[SEQUENCER] SLAVE TX  = b7
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f8 SLAVE_RX=f8
+[MONITOR] SLAVE_TX=b7 MASTER_RX=b7
+
+================================================
+[SEQUENCER] SPI TRANSACTION #48
+[SEQUENCER] MASTER TX = 9f
+[SEQUENCER] SLAVE TX  = 5c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=9f SLAVE_RX=9f
+[MONITOR] SLAVE_TX=5c MASTER_RX=5c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #49
+[SEQUENCER] MASTER TX = 5b
+[SEQUENCER] SLAVE TX  = 89
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5b SLAVE_RX=5b
+[MONITOR] SLAVE_TX=89 MASTER_RX=89
+
+================================================
+[SEQUENCER] SPI TRANSACTION #50
+[SEQUENCER] MASTER TX = 49
+[SEQUENCER] SLAVE TX  = d0
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=49 SLAVE_RX=49
+[MONITOR] SLAVE_TX=d0 MASTER_RX=d0
+
+================================================
+[SEQUENCER] SPI TRANSACTION #51
+[SEQUENCER] MASTER TX = d7
+[SEQUENCER] SLAVE TX  = 51
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=d7 SLAVE_RX=d7
+[MONITOR] SLAVE_TX=51 MASTER_RX=51
+
+================================================
+[SEQUENCER] SPI TRANSACTION #52
+[SEQUENCER] MASTER TX = 96
+[SEQUENCER] SLAVE TX  = 0c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=96 SLAVE_RX=96
+[MONITOR] SLAVE_TX=0c MASTER_RX=0c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #53
+[SEQUENCER] MASTER TX = c2
+[SEQUENCER] SLAVE TX  = c8
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=c2 SLAVE_RX=c2
+[MONITOR] SLAVE_TX=c8 MASTER_RX=c8
+
+================================================
+[SEQUENCER] SPI TRANSACTION #54
+[SEQUENCER] MASTER TX = 77
+[SEQUENCER] SLAVE TX  = 3d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=77 SLAVE_RX=77
+[MONITOR] SLAVE_TX=3d MASTER_RX=3d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #55
+[SEQUENCER] MASTER TX = 12
+[SEQUENCER] SLAVE TX  = 7e
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=12 SLAVE_RX=12
+[MONITOR] SLAVE_TX=7e MASTER_RX=7e
+
+================================================
+[SEQUENCER] SPI TRANSACTION #56
+[SEQUENCER] MASTER TX = 6d
+[SEQUENCER] SLAVE TX  = 39
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=6d SLAVE_RX=6d
+[MONITOR] SLAVE_TX=39 MASTER_RX=39
+
+================================================
+[SEQUENCER] SPI TRANSACTION #57
+[SEQUENCER] MASTER TX = 1f
+[SEQUENCER] SLAVE TX  = d3
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=1f SLAVE_RX=1f
+[MONITOR] SLAVE_TX=d3 MASTER_RX=d3
+
+================================================
+[SEQUENCER] SPI TRANSACTION #58
+[SEQUENCER] MASTER TX = 85
+[SEQUENCER] SLAVE TX  = 78
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=85 SLAVE_RX=85
+[MONITOR] SLAVE_TX=78 MASTER_RX=78
+
+================================================
+[SEQUENCER] SPI TRANSACTION #59
+[SEQUENCER] MASTER TX = 5b
+[SEQUENCER] SLAVE TX  = 49
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5b SLAVE_RX=5b
+[MONITOR] SLAVE_TX=49 MASTER_RX=49
+
+================================================
+[SEQUENCER] SPI TRANSACTION #60
+[SEQUENCER] MASTER TX = 3f
+[SEQUENCER] SLAVE TX  = 2a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=3f SLAVE_RX=3f
+[MONITOR] SLAVE_TX=2a MASTER_RX=2a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #61
+[SEQUENCER] MASTER TX = 58
+[SEQUENCER] SLAVE TX  = 86
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=58 SLAVE_RX=58
+[MONITOR] SLAVE_TX=86 MASTER_RX=86
+
+================================================
+[SEQUENCER] SPI TRANSACTION #62
+[SEQUENCER] MASTER TX = 8e
+[SEQUENCER] SLAVE TX  = 9c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=8e SLAVE_RX=8e
+[MONITOR] SLAVE_TX=9c MASTER_RX=9c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #63
+[SEQUENCER] MASTER TX = fa
+[SEQUENCER] SLAVE TX  = 26
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=fa SLAVE_RX=fa
+[MONITOR] SLAVE_TX=26 MASTER_RX=26
+
+================================================
+[SEQUENCER] SPI TRANSACTION #64
+[SEQUENCER] MASTER TX = 73
+[SEQUENCER] SLAVE TX  = a3
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=73 SLAVE_RX=73
+[MONITOR] SLAVE_TX=a3 MASTER_RX=a3
+
+================================================
+[SEQUENCER] SPI TRANSACTION #65
+[SEQUENCER] MASTER TX = 2f
+[SEQUENCER] SLAVE TX  = b3
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=2f SLAVE_RX=2f
+[MONITOR] SLAVE_TX=b3 MASTER_RX=b3
+
+================================================
+[SEQUENCER] SPI TRANSACTION #66
+[SEQUENCER] MASTER TX = 5f
+[SEQUENCER] SLAVE TX  = 44
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5f SLAVE_RX=5f
+[MONITOR] SLAVE_TX=44 MASTER_RX=44
+
+================================================
+[SEQUENCER] SPI TRANSACTION #67
+[SEQUENCER] MASTER TX = f7
+[SEQUENCER] SLAVE TX  = cb
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f7 SLAVE_RX=f7
+[MONITOR] SLAVE_TX=cb MASTER_RX=cb
+
+================================================
+[SEQUENCER] SPI TRANSACTION #68
+[SEQUENCER] MASTER TX = e6
+[SEQUENCER] SLAVE TX  = 5a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=e6 SLAVE_RX=e6
+[MONITOR] SLAVE_TX=5a MASTER_RX=5a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #69
+[SEQUENCER] MASTER TX = 29
+[SEQUENCER] SLAVE TX  = ed
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=29 SLAVE_RX=29
+[MONITOR] SLAVE_TX=ed MASTER_RX=ed
+
+================================================
+[SEQUENCER] SPI TRANSACTION #70
+[SEQUENCER] MASTER TX = da
+[SEQUENCER] SLAVE TX  = 65
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=da SLAVE_RX=da
+[MONITOR] SLAVE_TX=65 MASTER_RX=65
+
+================================================
+[SEQUENCER] SPI TRANSACTION #71
+[SEQUENCER] MASTER TX = b5
+[SEQUENCER] SLAVE TX  = df
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=b5 SLAVE_RX=b5
+[MONITOR] SLAVE_TX=df MASTER_RX=df
+
+================================================
+[SEQUENCER] SPI TRANSACTION #72
+[SEQUENCER] MASTER TX = 79
+[SEQUENCER] SLAVE TX  = 44
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=79 SLAVE_RX=79
+[MONITOR] SLAVE_TX=44 MASTER_RX=44
+
+================================================
+[SEQUENCER] SPI TRANSACTION #73
+[SEQUENCER] MASTER TX = d0
+[SEQUENCER] SLAVE TX  = 2a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=d0 SLAVE_RX=d0
+[MONITOR] SLAVE_TX=2a MASTER_RX=2a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #74
+[SEQUENCER] MASTER TX = ab
+[SEQUENCER] SLAVE TX  = 0e
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=ab SLAVE_RX=ab
+[MONITOR] SLAVE_TX=0e MASTER_RX=0e
+
+================================================
+[SEQUENCER] SPI TRANSACTION #75
+[SEQUENCER] MASTER TX = dc
+[SEQUENCER] SLAVE TX  = 9a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=dc SLAVE_RX=dc
+[MONITOR] SLAVE_TX=9a MASTER_RX=9a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #76
+[SEQUENCER] MASTER TX = fd
+[SEQUENCER] SLAVE TX  = c3
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=fd SLAVE_RX=fd
+[MONITOR] SLAVE_TX=c3 MASTER_RX=c3
+
+================================================
+[SEQUENCER] SPI TRANSACTION #77
+[SEQUENCER] MASTER TX = 56
+[SEQUENCER] SLAVE TX  = 4e
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=56 SLAVE_RX=56
+[MONITOR] SLAVE_TX=4e MASTER_RX=4e
+
+================================================
+[SEQUENCER] SPI TRANSACTION #78
+[SEQUENCER] MASTER TX = 67
+[SEQUENCER] SLAVE TX  = 0a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=67 SLAVE_RX=67
+[MONITOR] SLAVE_TX=0a MASTER_RX=0a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #79
+[SEQUENCER] MASTER TX = b6
+[SEQUENCER] SLAVE TX  = 38
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=b6 SLAVE_RX=b6
+[MONITOR] SLAVE_TX=38 MASTER_RX=38
+
+================================================
+[SEQUENCER] SPI TRANSACTION #80
+[SEQUENCER] MASTER TX = 79
+[SEQUENCER] SLAVE TX  = b8
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=79 SLAVE_RX=79
+[MONITOR] SLAVE_TX=b8 MASTER_RX=b8
+
+================================================
+[SEQUENCER] SPI TRANSACTION #81
+[SEQUENCER] MASTER TX = 94
+[SEQUENCER] SLAVE TX  = 93
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=94 SLAVE_RX=94
+[MONITOR] SLAVE_TX=93 MASTER_RX=93
+
+================================================
+[SEQUENCER] SPI TRANSACTION #82
+[SEQUENCER] MASTER TX = 04
+[SEQUENCER] SLAVE TX  = 59
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=04 SLAVE_RX=04
+[MONITOR] SLAVE_TX=59 MASTER_RX=59
+
+================================================
+[SEQUENCER] SPI TRANSACTION #83
+[SEQUENCER] MASTER TX = db
+[SEQUENCER] SLAVE TX  = 4d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=db SLAVE_RX=db
+[MONITOR] SLAVE_TX=4d MASTER_RX=4d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #84
+[SEQUENCER] MASTER TX = d9
+[SEQUENCER] SLAVE TX  = 6d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=d9 SLAVE_RX=d9
+[MONITOR] SLAVE_TX=6d MASTER_RX=6d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #85
+[SEQUENCER] MASTER TX = 76
+[SEQUENCER] SLAVE TX  = ca
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=76 SLAVE_RX=76
+[MONITOR] SLAVE_TX=ca MASTER_RX=ca
+
+================================================
+[SEQUENCER] SPI TRANSACTION #86
+[SEQUENCER] MASTER TX = b6
+[SEQUENCER] SLAVE TX  = 95
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=b6 SLAVE_RX=b6
+[MONITOR] SLAVE_TX=95 MASTER_RX=95
+
+================================================
+[SEQUENCER] SPI TRANSACTION #87
+[SEQUENCER] MASTER TX = 46
+[SEQUENCER] SLAVE TX  = 04
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=46 SLAVE_RX=46
+[MONITOR] SLAVE_TX=04 MASTER_RX=04
+
+================================================
+[SEQUENCER] SPI TRANSACTION #88
+[SEQUENCER] MASTER TX = f7
+[SEQUENCER] SLAVE TX  = 69
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=f7 SLAVE_RX=f7
+[MONITOR] SLAVE_TX=69 MASTER_RX=69
+
+================================================
+[SEQUENCER] SPI TRANSACTION #89
+[SEQUENCER] MASTER TX = b4
+[SEQUENCER] SLAVE TX  = 88
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=b4 SLAVE_RX=b4
+[MONITOR] SLAVE_TX=88 MASTER_RX=88
+
+================================================
+[SEQUENCER] SPI TRANSACTION #90
+[SEQUENCER] MASTER TX = 28
+[SEQUENCER] SLAVE TX  = 2d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=28 SLAVE_RX=28
+[MONITOR] SLAVE_TX=2d MASTER_RX=2d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #91
+[SEQUENCER] MASTER TX = c7
+[SEQUENCER] SLAVE TX  = 2e
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=c7 SLAVE_RX=c7
+[MONITOR] SLAVE_TX=2e MASTER_RX=2e
+
+================================================
+[SEQUENCER] SPI TRANSACTION #92
+[SEQUENCER] MASTER TX = 08
+[SEQUENCER] SLAVE TX  = 1c
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=08 SLAVE_RX=08
+[MONITOR] SLAVE_TX=1c MASTER_RX=1c
+
+================================================
+[SEQUENCER] SPI TRANSACTION #93
+[SEQUENCER] MASTER TX = fd
+[SEQUENCER] SLAVE TX  = 29
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=fd SLAVE_RX=fd
+[MONITOR] SLAVE_TX=29 MASTER_RX=29
+
+================================================
+[SEQUENCER] SPI TRANSACTION #94
+[SEQUENCER] MASTER TX = 1c
+[SEQUENCER] SLAVE TX  = 86
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=1c SLAVE_RX=1c
+[MONITOR] SLAVE_TX=86 MASTER_RX=86
+
+================================================
+[SEQUENCER] SPI TRANSACTION #95
+[SEQUENCER] MASTER TX = da
+[SEQUENCER] SLAVE TX  = 3d
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=da SLAVE_RX=da
+[MONITOR] SLAVE_TX=3d MASTER_RX=3d
+
+================================================
+[SEQUENCER] SPI TRANSACTION #96
+[SEQUENCER] MASTER TX = 66
+[SEQUENCER] SLAVE TX  = 70
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=66 SLAVE_RX=66
+[MONITOR] SLAVE_TX=70 MASTER_RX=70
+
+================================================
+[SEQUENCER] SPI TRANSACTION #97
+[SEQUENCER] MASTER TX = 73
+[SEQUENCER] SLAVE TX  = ba
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=73 SLAVE_RX=73
+[MONITOR] SLAVE_TX=ba MASTER_RX=ba
+
+================================================
+[SEQUENCER] SPI TRANSACTION #98
+[SEQUENCER] MASTER TX = 5e
+[SEQUENCER] SLAVE TX  = fa
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=5e SLAVE_RX=5e
+[MONITOR] SLAVE_TX=fa MASTER_RX=fa
+
+================================================
+[SEQUENCER] SPI TRANSACTION #99
+[SEQUENCER] MASTER TX = d5
+[SEQUENCER] SLAVE TX  = 1a
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=d5 SLAVE_RX=d5
+[MONITOR] SLAVE_TX=1a MASTER_RX=1a
+
+================================================
+[SEQUENCER] SPI TRANSACTION #100
+[SEQUENCER] MASTER TX = b9
+[SEQUENCER] SLAVE TX  = 37
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=b9 SLAVE_RX=b9
+[MONITOR] SLAVE_TX=37 MASTER_RX=37
+
+================================================
+[SEQUENCER] SPI TRANSACTION #101
+[SEQUENCER] MASTER TX = 96
+[SEQUENCER] SLAVE TX  = c0
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=96 SLAVE_RX=96
+[MONITOR] SLAVE_TX=c0 MASTER_RX=c0
+
+================================================
+[SEQUENCER] SPI TRANSACTION #102
+[SEQUENCER] MASTER TX = 26
+[SEQUENCER] SLAVE TX  = b6
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=26 SLAVE_RX=26
+[MONITOR] SLAVE_TX=b6 MASTER_RX=b6
+
+================================================
+[SEQUENCER] SPI TRANSACTION #103
+[SEQUENCER] MASTER TX = 7d
+[SEQUENCER] SLAVE TX  = dc
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=7d SLAVE_RX=7d
+[MONITOR] SLAVE_TX=dc MASTER_RX=dc
+
+================================================
+[SEQUENCER] SPI TRANSACTION #104
+[SEQUENCER] MASTER TX = 86
+[SEQUENCER] SLAVE TX  = 78
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=86 SLAVE_RX=86
+[MONITOR] SLAVE_TX=78 MASTER_RX=78
+
+================================================
+[SEQUENCER] SPI TRANSACTION #105
+[SEQUENCER] MASTER TX = 7e
+[SEQUENCER] SLAVE TX  = db
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=7e SLAVE_RX=7e
+[MONITOR] SLAVE_TX=db MASTER_RX=db
+
+================================================
+[SEQUENCER] SPI TRANSACTION #106
+[SEQUENCER] MASTER TX = cf
+[SEQUENCER] SLAVE TX  = 79
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=cf SLAVE_RX=cf
+[MONITOR] SLAVE_TX=79 MASTER_RX=79
+
+================================================
+[SEQUENCER] SPI TRANSACTION #107
+[SEQUENCER] MASTER TX = fa
+[SEQUENCER] SLAVE TX  = 61
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=fa SLAVE_RX=fa
+[MONITOR] SLAVE_TX=61 MASTER_RX=61
+
+================================================
+[SEQUENCER] SPI TRANSACTION #108
+[SEQUENCER] MASTER TX = 17
+[SEQUENCER] SLAVE TX  = a1
+================================================
+[SCOREBOARD] PASS                                         MASTER BUSY ASSERTED
+[SCOREBOARD] PASS                                              CS ASSERTED LOW
+[SCOREBOARD] PASS                                              SCLK STARTS LOW
+[SCOREBOARD] PASS                                                  MASTER DONE
+[SCOREBOARD] PASS                                   SLAVE RX MATCHES MASTER TX
+[SCOREBOARD] PASS                                   MASTER RX MATCHES SLAVE TX
+[SCOREBOARD] PASS                                               SLAVE RX VALID
+[SCOREBOARD] PASS                                       MASTER BUSY DEASSERTED
+[SCOREBOARD] PASS                                           CS DEASSERTED HIGH
+[SCOREBOARD] PASS                                         SCLK RETURNS TO IDLE
+[MONITOR] MASTER_TX=17 SLAVE_RX=17
+[MONITOR] SLAVE_TX=a1 MASTER_RX=a1
+
+================================================
+             FINAL VERIFICATION
+================================================
+DIRECTED TESTS       = 8
+RANDOMIZED TESTS     = 100
+TOTAL TESTS          = 108
+PASSED CHECKS        = 1080
+FAILED CHECKS        = 0
+BUSY CHECKS          = 216
+DONE CHECKS          = 108
+SLAVE RX CHECKS      = 108
+MASTER RX CHECKS     = 108
+CS CHECKS            = 216
+CLOCK CHECKS         = 216
+
+OVERALL RESULT = PASS
+================================================
+spi_tb.sv:520: $finish called at 20586000 (1ps)

@@ -1,0 +1,54 @@
+`timescale 1ns/1ps
+
+module alu (
+    input  logic [7:0] a,
+    input  logic [7:0] b,
+
+    input  logic [2:0] alu_control,
+
+    output logic [7:0] result,
+    output logic       zero
+);
+
+    localparam ALU_ADD = 3'b000;
+    localparam ALU_SUB = 3'b001;
+    localparam ALU_AND = 3'b010;
+    localparam ALU_OR  = 3'b011;
+    localparam ALU_XOR = 3'b100;
+
+    always_comb begin
+
+        case (alu_control)
+
+            ALU_ADD:
+                result = a + b;
+
+            ALU_SUB:
+                result = a - b;
+
+            ALU_AND:
+                result = a & b;
+
+            ALU_OR:
+                result = a | b;
+
+            ALU_XOR:
+                result = a ^ b;
+
+            default:
+                result = 8'd0;
+
+        endcase
+
+    end
+
+    always_comb begin
+
+        if (result == 8'd0)
+            zero = 1'b1;
+        else
+            zero = 1'b0;
+
+    end
+
+endmodule

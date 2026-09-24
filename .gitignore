@@ -1,24 +1,36 @@
-# Verilog simulation output
+# Simulation outputs
 *.vcd
 *.fst
-*.lxt
 *.wlf
-**/sim
-
-# Compiled simulation files
+*.log
+sim
+sim.exe
 *.out
-*.exe
-a.out
 
-# VS Code workspace files
-*.code-workspace
+# Tool-generated files
+*.jou
+*.pb
+*.history
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
 .vscode/
+
+# Python
+__pycache__/
+*.pyc
 
 # Temporary files
 *.tmp
 *.bak
-*.swp
+# VLSI simulation executables
+*_sim
+*_test
 
-# OS files
-Thumbs.db
-.DS_Store
+# Temporary/debug files
+*_backup.sv
+tb_debug.ps1
+
